@@ -1,0 +1,66 @@
+body
+{
+	background: #fff;
+}
+
+.container
+{
+	max-width: 800px;
+	margin: auto;
+	font-family: sans-serif;
+}
+
+.month
+{
+	font-size: 5em;
+	font-weight: 600;
+	text-align: center;
+	margin: 0;
+	margin-top: 40px;
+	padding: 40px;
+	background: #00ffc4;
+	text-transform: uppercase;
+	line-height: 105px;
+	color: #fff;
+	border: 1px solid #00ffc4;
+	box-shadow: 4px 4px 4px 4px rgba(4,4,4,0.07);
+	float: inherit;
+
+}
+
+table, th, td
+{
+	width: 100%;
+	table-layout: auto;
+	text-align: center;
+	padding: 7px;
+	font-size: 1.2em;
+	font-weight: 800;
+	border-collapse: collapse;
+	border: 2px solid #00ffc4;
+	background-color: #1edecc94;
+	color: #fff;
+	box-shadow: 4px 4px 4px 4px rgba(4,4,4,0.05);
+}
+
+tr, th, td
+{
+	padding: 12px;
+}
+
+th
+{
+	background: #af1ede94;
+	color: #fff;
+	cursor: pointer;
+}
+
+td:hover
+{
+	background: #0072ff47;
+	cursor: pointer;
+}
+.active
+{
+	color: red;
+}
